@@ -25,3 +25,49 @@ alefh.sousa@caelum.com.br
 -  https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity
 -  https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
 
+
+# Aula 2 - Referências
+
+- https://files.gotocon.com/uploads/slides/conference_16/1127/original/Monolith%20Decompositon%20Patterns%20v2%20-%2045mins.pdf
+- https://www.youtube.com/watch?v=9I9GdSQ1bbM
+- https://en.wikipedia.org/wiki/Strangler_fig#/media/File:Strangler_fig_inside.jpg
+- https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+- https://www.nginx.com/products/nginx-ingress-controller/
+- https://www.envoyproxy.io
+- https://www.youtube.com/watch?v=5OjqD-ow8GE
+- https://c4model.com/
+- http://chadfowler.com/2006/12/27/the-big-rewrite.html
+- https://martinfowler.com/bliki/StranglerFigApplication.html
+- https://12factor.net/pt_br/config
+- https://istio.io/
+- https://en.wikipedia.org/wiki/Conway%27s_law
+- https://developers.redhat.com/books/-migrating-microservice-databases-relational-monolith-distributed-data
+- https://microservices.io/patterns/data/shared-database.html
+- https://microservices.io/patterns/data/database-per-service.html
+- https://undertow.io/ & https://netty.io/ & https://javadeveloperzone.com/spring-boot/spring-boot-configure-undertow-server/
+- https://en.wikipedia.org/wiki/Single_source_of_truth
+- https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+
+
+
+# Aula 3 - Referências
+
+- https://airflow.apache.org/
+- https://12factor.net/dependencies
+- https://flywaydb.org/
+- https://www.liquibase.org/
+- https://graphql.org/
+- https://httpstatuses.com/
+- https://geemus.gitbooks.io/http-api-design/content/en/index.html
+- https://martinfowler.com/articles/richardsonMaturityModel.html
+- https://github.com/OpenFeign/feign
+- https://spring.io/projects/spring-cloud
+- https://spring.io/blog/2014/06/03/introducing-spring-cloud
+- https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515
+- https://hipsters.tech/estrategias-de-migracao-de-dados-no-elo7-hipsters-on-the-road-07/
+- https://microservices.io/patterns/data/transaction-log-tailing.html
+- https://debezium.io/docs/architecture/
+- https://grpc.io/
+- https://www.youtube.com/watch?v=r8gOKuWgNvw
+- https://hpbn.co/
+- https://www.casadocodigo.com.br/products/livro-desconstruindo-web
