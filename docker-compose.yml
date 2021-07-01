@@ -10,5 +10,32 @@ services:
       MYSQL_DATABASE: eats
     volumes:
       - mysql.eats.monolito:/var/lib/mysql
+  mysql.pagamento:
+    image: mysql:5.7
+    ports:
+      - "3309:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: pagamento123
+      MYSQL_DATABASE: eats_pagamento
+    volumes:
+      - mysql.eats.pagamento:/var/lib/mysql
+  mongodb.distancia:
+    image: mongo:3.6
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodb.eats.distancia:/data/db
+  mongo-express:
+    image: mongo-express
+    ports:
+      - 8091:8081
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongodb.distancia
+      ME_CONFIG_MONGODB_PORT: 27017
+    depends_on:
+      - mongodb.distancia
+    restart: on-failure
 volumes:
   mysql.eats.monolito:
+  mysql.eats.pagamento:
+  mongodb.eats.distancia:
