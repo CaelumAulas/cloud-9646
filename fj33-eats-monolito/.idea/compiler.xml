@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eats-distancia-service" />
+        <module name="eats-pagamento-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eats" target="1.8" />
+      <module name="eats (1)" target="1.8" />
+      <module name="eats-administrativo" target="1.8" />
+      <module name="eats-application" target="1.8" />
+      <module name="eats-distancia" target="1.8" />
+      <module name="eats-distancia-service" target="1.8" />
+      <module name="eats-pagamento" target="1.8" />
+      <module name="eats-pagamento-service" target="1.8" />
+      <module name="eats-pedido" target="1.8" />
+      <module name="eats-restaurante" target="1.8" />
+      <module name="eats-seguranca" target="1.8" />
+      <module name="fj33-distancia-service" target="1.8" />
+      <module name="fj33-pagamento-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eats" options="-parameters" />
+      <module name="eats (1)" options="-parameters" />
+      <module name="eats-administrativo" options="-parameters" />
+      <module name="eats-application" options="-parameters" />
+      <module name="eats-distancia" options="-parameters" />
+      <module name="eats-distancia-service" options="-parameters" />
+      <module name="eats-pagamento" options="-parameters" />
+      <module name="eats-pagamento-service" options="-parameters" />
+      <module name="eats-pedido" options="-parameters" />
+      <module name="eats-restaurante" options="-parameters" />
+      <module name="eats-seguranca" options="-parameters" />
+      <module name="fj33-distancia-service" options="-parameters" />
+      <module name="fj33-pagamento-service" options="-parameters" />
+    </option>
+  </component>
+</project>

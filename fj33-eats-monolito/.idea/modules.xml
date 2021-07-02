@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../fj33-eats-monolito-modular/eats.iml" filepath="$PROJECT_DIR$/../fj33-eats-monolito-modular/eats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fj33-eats-distancia-service/eats-distancia-service.iml" filepath="$PROJECT_DIR$/../fj33-eats-distancia-service/eats-distancia-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fj33-eats-pagamento-service/eats-pagamento-service.iml" filepath="$PROJECT_DIR$/../fj33-eats-pagamento-service/eats-pagamento-service.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../fj33-eats-distancia-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fj33-eats-distancia-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fj33-eats-pagamento-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fj33-eats-pagamento-service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
