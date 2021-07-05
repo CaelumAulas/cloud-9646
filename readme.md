@@ -25,49 +25,103 @@ alefh.sousa@caelum.com.br
 -  https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity
 -  https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
 
+ula 2 - Referências
 
-# Aula 2 - Referências
-
-- https://files.gotocon.com/uploads/slides/conference_16/1127/original/Monolith%20Decompositon%20Patterns%20v2%20-%2045mins.pdf
-- https://www.youtube.com/watch?v=9I9GdSQ1bbM
-- https://en.wikipedia.org/wiki/Strangler_fig#/media/File:Strangler_fig_inside.jpg
-- https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
-- https://www.nginx.com/products/nginx-ingress-controller/
-- https://www.envoyproxy.io
-- https://www.youtube.com/watch?v=5OjqD-ow8GE
-- https://c4model.com/
-- http://chadfowler.com/2006/12/27/the-big-rewrite.html
-- https://martinfowler.com/bliki/StranglerFigApplication.html
-- https://12factor.net/pt_br/config
-- https://istio.io/
-- https://en.wikipedia.org/wiki/Conway%27s_law
-- https://developers.redhat.com/books/-migrating-microservice-databases-relational-monolith-distributed-data
-- https://microservices.io/patterns/data/shared-database.html
-- https://microservices.io/patterns/data/database-per-service.html
-- https://undertow.io/ & https://netty.io/ & https://javadeveloperzone.com/spring-boot/spring-boot-configure-undertow-server/
-- https://en.wikipedia.org/wiki/Single_source_of_truth
-- https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
-
-
-
-# Aula 3 - Referências
-
-- https://airflow.apache.org/
-- https://12factor.net/dependencies
-- https://flywaydb.org/
-- https://www.liquibase.org/
-- https://graphql.org/
-- https://httpstatuses.com/
-- https://geemus.gitbooks.io/http-api-design/content/en/index.html
-- https://martinfowler.com/articles/richardsonMaturityModel.html
-- https://github.com/OpenFeign/feign
-- https://spring.io/projects/spring-cloud
-- https://spring.io/blog/2014/06/03/introducing-spring-cloud
-- https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515
-- https://hipsters.tech/estrategias-de-migracao-de-dados-no-elo7-hipsters-on-the-road-07/
-- https://microservices.io/patterns/data/transaction-log-tailing.html
-- https://debezium.io/docs/architecture/
-- https://grpc.io/
-- https://www.youtube.com/watch?v=r8gOKuWgNvw
-- https://hpbn.co/
-- https://www.casadocodigo.com.br/products/livro-desconstruindo-web
+- https://microservices.io/patterns/decomposition/decompose-by-subdomain.html
+- - https://postgis.net/
+- - https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
+- - https://www.amazon.com.br/Monolith-Microservices-Evolutionary-Patterns-Transform-ebook/dp/B081TKSSNN/ref=asc_df_B081TKSSNN/?tag=googleshopp00-20&linkCode=df0&-hvadid=379726607263&hvpos=&hvnetw=g&hvrand=8575077158726347917&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-848237556440&psc=1
+- - https://www.amazon.com.br/Building-Microservices-Designing-Fine-Grained-Systems-ebook/dp/B00T3N7XB4/ref=asc_df_B00T3N7XB4/?tag=googleshopp00-20&linkCode=df0&-hvadid=379725882390&hvpos=&hvnetw=g&hvrand=8575077158726347917&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-406130817105&psc=1
+- - https://martinfowler.com/bliki/StranglerFigApplication.html
+- - https://www.youtube.com/watch?v=9I9GdSQ1bbM
+- - https://www.youtube.com/watch?v=gDlE4q3mozY
+- - https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- - https://www.oreilly.com/online-learning/individuals.html
+- - https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=2&country=Brazil&form_type=Professional&promo=LEVEL
+- - https://www.amazon.com.br/Designing-Data-Intensive-Applications-Martin-Kleppmann/dp/1449373321/ref=asc_df_1449373321/?tag=googleshopp00-20&linkCode=df0&hvadid=379726163686&hvpos=&hvnetw=g&hvrand=7397733194087386597&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001773&hvtargid=pla-432535594773&psc=1
+- - https://www.amazon.com.br/Database-Internals-Alex-Petrov/dp/1492040347
+- - https://www.youtube.com/watch?v=UEAMfLPZZhE&list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB
+- - https://microservices.io/patterns/data/shared-database.html
+- - https://microservices.io/patterns/data/database-per-service.html#:~:text=Private%2Dtables%2Dper%2Dservice,has%20it's%20own%20database%20server.
+- - https://flywaydb.org/
+-
+- - # Aula 3 - Referências
+-
+- - https://hipsters.tech/estrategias-de-migracao-de-dados-no-elo7-hipsters-on-the-road-07/
+- - https://docs.nats.io/
+- - https://debezium.io/
+- - https://developers.redhat.com/books/migrating-microservice-databases-relational-monolith-distributed-data
+- - https://www.confluent.io/blog/ksql-streaming-sql-for-apache-kafka/
+- - https://microservices.io/book
+- - https://eventuate.io/abouteventuatetram.html
+- - https://www.youtube.com/watch?v=eRz3xjM08l0
+- - https://httpstatuses.com
+- - https://martinfowler.com/articles/richardsonMaturityModel.html
+- - https://graphql.org/
+- - https://geemus.gitbooks.io/http-api-design/content/en/index.html
+- - https://github.com/OpenFeign/feign
+- - https://github.com/donnemartin/system-design-primer
+-
+- - # Aula 4 - Referências
+-
+- - https://hpbn.co/
+- - https://www.amazon.com.br/Release-Design-Deploy-Production-Ready-Software/dp/0978739213
+- - https://grpc.io/
+- - https://github.com/OpenFeign/feign
+- - https://httpstatuses.com/
+- - https://devopedia.org/richardson-maturity-model
+- - https://martinfowler.com/articles/richardsonMaturityModel.html
+- - https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=2&country=Brazil&form_type=Professional&promo=LEVEL
+- - https://grpc.io/docs/languages/java/quickstart/
+- - https://developers.google.com/protocol-buffers
+- - https://twitter.github.io/finagle/
+- - https://www.keycloak.org/
+- - https://landscape.cncf.io/
+- - https://github.com/traefik/traefik
+- - https://containo.us/traefik/
+- - https://netflixtechblog.com/optimizing-the-netflix-api-5c9ac715cf19
+- - https://netflixtechblog.com/engineering-trade-offs-and-the-netflix-api-re-architecture-64f122b277dd
+- - https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- - https://www.nginx.com/blog/api-real-time-test-latency-responsiveness-nginx-rtapi-tool/
+-
+- - # Aula 5 - Referências
+-
+- - https://microservices.io/patterns/apigateway.html
+- - https://github.com/Netflix/zuul
+- - https://hub.docker.com/
+- - https://spring.io/projects/spring-cloud-gateway
+- - https://docs.traefik.io/user-guides/grpc/
+- - https://vertx.io/
+- - https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- - https://letsencrypt.org/pt-br/
+- - https://kubernetes.github.io/ingress-nginx/
+- - https://microservices.io/patterns/data/api-composition.html
+- - https://colin-scott.github.io/personal_website/research/interactive_latency.html
+- - https://research.cs.cornell.edu/ladis2009/talks/dean-keynote-ladis2009.pdf
+- - https://www.infoq.com/br/presentations/evoluindo-uma-arquitetura-soundcloud/
+- - https://netflixtechblog.com/announcing-zuul-edge-service-in-the-cloud-ab3af5be08ee
+- - https://samnewman.io/patterns/architectural/bff/
+- - https://netflixtechblog.com/optimizing-the-netflix-api-5c9ac715cf19
+- - https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+- - https://www.casadocodigo.com.br/products/livro-desconstruindo-web?_pos=5&_sid=ae83709b6&_ss=r
+- - https://dask.org/
+- - https://aws.amazon.com/pt/emr/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
+- - https://raft.github.io/
+- - http://thesecretlivesofdata.com/raft/
+- - https://miro.medium.com/max/700/1*HXbT0c4Q5XaiCIp6y3VMvw.png
+- - https://docs.microsoft.com/pt-br/dotnet/architecture/cloud-native/service-mesh-communication-infrastructure
+- - https://debezium.io/documentation/reference/1.2/tutorial.html
+- - https://github.com/confluentinc/ksql
+-  https://pt.wikipedia.org/wiki/Round-robin#:~:text=Round%2Drobin%20(RR)%20%C3%A9,e%20de%20rede%2C%20em%20computa%C3%A7%C3%A3o.
+-  - https://www.nexsoftsys.com/articles/spring-cloud-netflix-ribbon.html
+-  - https://spring.io/guides/gs/spring-cloud-loadbalancer/
+-  - https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-ribbon.html
+-  - https://miro.medium.com/max/3590/0*gAtm7Jtxqf4TudVZ.png
+-  - https://www.yld.io/blog/service-meshin-with-istio/
+-  - https://istio.io/latest/docs/setup/install/operator/
+-  - https://www.envoyproxy.io/
+-  - https://kubernetes.io/docs/concepts/overview/components/
+-  - https://linkerd.io/
+-  - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+-  - https://www.consul.io/
+-  - https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/CONCEPTS.md
